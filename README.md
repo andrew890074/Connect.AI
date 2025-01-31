@@ -1,5 +1,6 @@
 ![link About do site](https://github.com/andrew890074/Connect.AI/blob/main/demonstração/fluxo5.png)
 <br/>
+![link About do site](https://github.com/andrew890074/Connect.AI/blob/main/demonstração/dash.png)
 <br/>
 
 <h1>Whaticket Saas</h1>
