@@ -150,7 +150,7 @@ move_whaticket_files() {
   sudo mkdir -p /home/deployautomatizaai/whaticket/backup/frontend
 
 
-  sudo rm -r /home/deployautomatizaai/whaticket/backup/frontend/automatizaai
+  sudo rm -r /home/deployautomatizaai/whaticket/backup/frontend/automatizaai/static
   sudo rm -r /home/deployautomatizaai/whaticket/backup/backend/automatizaai
 
   sudo mv /home/deployautomatizaai/whaticket/frontend/automatizaai /home/deployautomatizaai/whaticket/backup/frontend/
@@ -163,9 +163,9 @@ move_whaticket_files() {
   sudo rm -rf /home/deployautomatizaai/whaticket/frontend/node_modules
   sudo rm -rf /home/deployautomatizaai/whaticket/backend/node_modules
 
-  sudo mv /root/whaticket/frontend/automatizaai /home/deployautomatizaai/whaticket/frontend
+  sudo mv /root/whaticket/frontend/automatizaai/static /home/deployautomatizaai/whaticket/frontend/static
   sudo mv /root/whaticket/frontend/package.json /home/deployautomatizaai/whaticket/frontend
-  sudo mv /root/whaticket/backend/ecosystem.config.js /home/deployautomatizaai/whaticket/backend
+ 
   sudo mv /root/whaticket/backend/automatizaai /home/deployautomatizaai/whaticket/backend
   sudo mv /root/whaticket/backend/package.json /home/deployautomatizaai/whaticket/backend
   sudo rm -rf /root/whaticket
