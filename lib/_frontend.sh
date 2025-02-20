@@ -236,7 +236,7 @@ frontend_restart_pm2() {
   cd /home/deployautomatizaai/whaticket/backend
 
  
-  pm2 start automatizaai/server.js --name whaticket-backend -i max --max-memory-restart 500M
+  pm2 start automatizaai/server.js --name whaticket-backend -i max --max-memory-restart 980M
   pm2 save
 
   pm2 stop all
