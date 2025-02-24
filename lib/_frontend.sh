@@ -300,7 +300,8 @@ backend_restart_pm2() {
   sudo su - deployautomatizaai <<EOF
     cd /home/deployautomatizaai/whaticket/backend
     pm2 stop all
-    sudo rm -rf /root/WhaticketWorkflow
+    sudo rm -rf /root/Connect.AI
+    sudo rm -rf /home/deployautomatizaai/.pm2/logs
 EOF
 
   sleep 2
